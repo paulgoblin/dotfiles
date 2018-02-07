@@ -1,13 +1,8 @@
-# add this to .bashrc
-# source dotfiles
-for file in ~/.files/*.bash
-do
-  source $file
-done
+# add this to .profile or .bashrc
+source ~/.files/load.bash
 
 # run this to let git work with the new editor
 git config --global core.editor $(which vim)
-
 
 yum search vim
 yum install vim-enhanced*
