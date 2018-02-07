@@ -1,5 +1,6 @@
 echo "loading .files"
-for file in ./scripts/*.bash
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+for file in $DIR/scripts/*.bash
 do
   source $file
 done
