@@ -1,3 +1,6 @@
+# if there is no nvm, return
+[ ! -d "$HOME/.nvm" ] && return
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] ; \. "$NVM_DIR/nvm.sh"  # This loads nvm
 

@@ -1,3 +1,3 @@
-export LSCOLORS="gxfxbEaEBxxEhEhBaDaCaD"
+# export LSCOLORS="gxfxbEaEBxxEhEhBaDaCaD"
 
-alias ls='ls -GH'
+# alias ls='ls -GH'
