@@ -30,8 +30,7 @@ alias npmrun='npm run'
 alias slime='subl .'
 
 #Mongodb
-alias mongod='mongod --dbpath /Users/michaelrichter/data/db'
-alias mongod@3.2='/usr/local/opt/mongodb@3.2/bin/mongod --dbpath /Users/michaelrichter/data/db3.2'
+alias mongod="mongod --dbpath $HOME/data/db"
 
 #utils
 alias pkhas='cat package.json | grep'
