@@ -39,10 +39,10 @@ alias pkscript="awk '/script/,/\},/' package.json"
 alias envhas='env | grep'
 
 # serve
-alias serve='php -S 127.0.0.1:5000'
+# alias serve='php -S 127.0.0.1:5000'
 
 # browserstack
 alias killbs='kill -9 `lsof -i tcp:45691 | tail -1 | awk "{print $2}"`'
 
 # scheme
-alias lisp='rlwrap scheme'
+alias scheme='rlwrap scheme'
