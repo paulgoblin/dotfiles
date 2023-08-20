@@ -2,3 +2,4 @@
 source ~/.files/load.bash
 
 # or run init.bash
+# doesn't work with zsh. Make sure you're using /bin/bash
