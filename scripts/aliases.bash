@@ -27,6 +27,7 @@ alias bis='bower install --save'
 alias bus='bower uninstall --save'
 alias bit='bower init'
 alias npmrun='npm run'
+alias subl='open -a /Applications/Sublime\ Text.app/Contents/MacOS/sublime_text'
 alias slime='subl .'
 
 #Mongodb
